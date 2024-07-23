@@ -1,0 +1,16 @@
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+header, footer{
+    height: 10%;
+}
+
+main{
+    height: 80%;
+}
+
+.seccion[data-visible="false"]{
+    display: none !important;
+} 

@@ -6,20 +6,57 @@
     <title>Trabajo Integrador I</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/secciones/seccionDestacados.css">
 </head>
-<body class="h-100 d-flex flex-column justify-content-between">
-    <header>
+<body class="h-100 w-100 d-flex flex-column justify-content-between" data-bs-theme="light">
+    <header class="w-100 bg-dark-subtle text-center">
         Header
     </header>
     
-    <main>
-        Main
+    <main class="d-flex flex-column justify-content-evenly">
+        <section class="seccionDestacados seccion h-100 p-4 m-0" data-visible="true">
+            <h2 class="tituloSeccion">Destacados</h2>
+            <div class="destacadosContainer w-100">
+                <div class="producto d-flex flex-column align-items-center justify-content-between p-1 text-center">
+                    <div class="imageDiv">
+                        <img class="imgProduct h-100 w-100 object-fit-cover" src="https://www.florespedia.com/Imagenes/campo-de-margaritas.jpg">
+                    </div>
+                        <p class="nombre">Margaritas</p>
+                        <p class="precio">$16449</p>
+                    </div>
+                    <div class="producto d-flex flex-column align-items-center justify-content-between p-1 text-center">
+                        <div class="imageDiv">
+                            <img class="imgProduct h-100 w-100 object-fit-cover" src="https://www.argentina.gob.ar/sites/default/files/ceibo-2.jpg">
+                        </div>
+                        <p class="nombre">Ceibo</p>
+                        <p class="precio">$12300</p>
+                    </div>
+                    <div class="producto d-flex flex-column align-items-center justify-content-between p-1 text-center">
+                        <div class="imageDiv">
+                            <img class="imgProduct h-100 w-100 object-fit-cover" src="https://www.avesargentinas.org.ar/sites/default/files/20100313_092259_DSC_1335.jpg">
+                        </div>
+                        <p class="nombre">Florcita </p>
+                        <p class="precio">$12300</p>
+                    </div>
+            </div>
+
+        </section>
+
+
+
+
+        <!-- <section class="seccionCategoria seccion  h-100" data-visible="false">
+
+        </section>
+        <section class="seccionProducto seccion  h-100" data-visible="false">
+
+        </section> -->
     </main>
 
-    <footer>
+    <footer class="w-100 bg-dark-subtle text-center">
         Footer
     </footer>
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script  src="./js/script.js"></script>
+    <script defer src="./js/bootstrap.bundle.min.js"></script>
+    <script defer type="module" src="./js/script.js"></script>
 </body>
 </html>

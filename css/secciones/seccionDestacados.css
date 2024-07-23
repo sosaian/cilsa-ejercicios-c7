@@ -1,0 +1,27 @@
+.destacadosContainer{
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+}
+
+.producto{
+    height: 280px;
+    border-radius: 0 0 1em 1em; /* Bordes redondeados para el producto */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */
+    border: 2px solid rgba(0,0,0,.1);
+}
+
+.producto .imageDiv{
+    height: 75%;
+}
+
+.producto .imageDiv img{
+    aspect-ratio: 4/3;
+}
+
+
+p{
+    margin: 0;
+}
