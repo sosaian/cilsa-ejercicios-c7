@@ -1,0 +1,17 @@
+#mode-icon {
+    width: 30px;
+    background-color: #ffffff; 
+    padding: 5px; 
+    border-radius: 50%; 
+}
+.oscuro-claro {
+    position: relative;
+}
+
+#toggleMode {
+    transition: transform 0.5s;
+}
+
+#toggleMode.dark {
+    transform: translateX(50px); 
+}
