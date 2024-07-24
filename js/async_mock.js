@@ -1,4 +1,4 @@
-async function cargarProductos() {
+export async function cargarProductos() {
     try {
 
         const response = await fetch("../data/data.json")   // Intento obtener el JSON de productos.
@@ -11,7 +11,7 @@ async function cargarProductos() {
         
         const data = await response.json()  // Convierto la respuesta en array de objetos.
 
-        console.log(data)   // Desde esta línea ya se puede manipular el array de objetos.
+        return data;
 
     } catch (error) {
 
@@ -26,6 +26,5 @@ async function cargarProductos() {
         }, 2000);
     
     }
-}
 
-cargarProductos()
+}
