@@ -1,0 +1,35 @@
+html{
+    min-height: 100vh;
+    scrollbar-gutter: stable !important;
+    scrollbar-width: thin !important;
+}
+
+header, footer{
+    height: 10%;
+}
+
+main{
+    height: 80%;
+}
+
+.seccion[data-visible="false"]{
+    display: none !important;
+} 
+
+#mode-icon {
+    width: 30px;
+    background-color: #ffffff; 
+    padding: 5px; 
+    border-radius: 50%; 
+}
+.oscuro-claro {
+    position: relative;
+}
+
+#toggleMode {
+    transition: transform 0.5s;
+}
+
+#toggleMode.dark {
+    transform: translateX(15px); 
+}
