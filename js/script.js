@@ -1,6 +1,5 @@
-import { crearProductos } from "./crearProductos.js";
-import { cargarProductos } from "./async_mock.js";
-import { crearCategorias } from "./crearCategorias.js";
+import { crearSeccionDestacados } from "./secciones/seccionDestacados.js";
+import { crearSeccionCategorias } from "./secciones/seccionDestacados.js";
 
 function cambiarModo(modo) {
     $("body").attr("data-bs-theme", modo);
@@ -48,48 +47,22 @@ $(document).ready(() => {
         }
     });
 
-    const verProductos = $(".btnVerProductos");
-
-    verProductos.click(()=>{
-        alert("holita");
-    });
 });
 
 
-function crearSeccionDestacados(){
-    cargarProductos().then(datos => {
-        if (datos) {
-            console.log("Datos recibidos:", datos);
-    
-            const contenedorDestacados = document.querySelector(".destacadosContainer");
-            crearProductos(datos, contenedorDestacados);
+export function averiguarSeccionActual(){
+
+    const listaSecciones = document.querySelectorAll(".seccion");
+
+    let sectionVisible = null;
+
+    listaSecciones.forEach((seccion) => {
+        const seccionActual = window.getComputedStyle(seccion);
+
+        if (seccionActual.display !== 'none') {
+            sectionVisible = seccion;
         }
-    }).catch(error => {
-        console.error("Error al manejar los datos:", error);
     });
-}
 
-function crearSeccionCategorias(){
-    cargarProductos().then(datos => {
-        if (datos) {
-            console.log("Datos recibidos:", datos);
-    
-            const categorias = new Set(datos.map(producto => producto.categoria));
-
-            const productosPorCategoria = {};
-
-            categorias.forEach(categoria => {
-                productosPorCategoria[categoria] = datos.filter(producto => producto.categoria === categoria);
-            })
-
-            console.log(productosPorCategoria);
-
-            const seccionCategorias = document.querySelector(".seccionCategorias");
-
-            crearCategorias(productosPorCategoria, seccionCategorias);
-            
-        }
-    }).catch(error => {
-        console.error("Error al manejar los datos:", error);
-    });
+    return sectionVisible;
 }
