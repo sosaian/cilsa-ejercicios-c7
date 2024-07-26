@@ -10,7 +10,7 @@
     height: 280px;
     border-radius: 0 0 1em 1em; /* Bordes redondeados para el producto */
     /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */
-    border: 2px solid rgba(0,0,0,.1);
+    /* border: 2px solid rgba(0,0,0,.1); */
 }
 
 .producto .imageDiv{
@@ -34,4 +34,8 @@ p{
 
 .iconoFlecha{
     height: 100%;
+}
+
+.producto{
+    cursor: pointer;
 }

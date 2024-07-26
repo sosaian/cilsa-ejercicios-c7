@@ -1,3 +1,5 @@
+import { averiguarSeccionActual } from "../script.js";
+import { crearSeccionCategoria } from "../secciones/seccionCategoria.js";
 import { crearProductos } from "./crearProductos.js";
 
 
@@ -28,6 +30,20 @@ export function crearCategorias(datos, container) {
         
         categoriaDiv.appendChild(productosCategoria);
         container.appendChild(categoriaDiv);
+        
+        const btnVerProductos = categoriaDiv.querySelector('.btnVerProductos');
+        const contenedorCategoria = document.querySelector(".seccionCategoria");
+
+        btnVerProductos.addEventListener('click', function() {
+            const categoriaAsociada = this.getAttribute('data-category');
+            const productosAsociados = datos[categoriaAsociada] || [];
+
+            crearSeccionCategoria(categoriaAsociada, productosAsociados, contenedorCategoria);
+
+            const seccionActual = averiguarSeccionActual();
+            seccionActual.setAttribute("data-visible", "false");
+            contenedorCategoria.setAttribute("data-visible", "true");
+        });
     });
 }
 

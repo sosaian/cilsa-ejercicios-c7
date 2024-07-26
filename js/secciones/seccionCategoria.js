@@ -1,5 +1,5 @@
 import { crearProductos } from "../servicios/crearProductos.js";
-import { averiguarSeccionActual } from "../script.js";
+import { averiguarSeccionActual} from "../script.js";
 
 export function crearSeccionCategoria(categoria, productos, container){
     const categoriaTools = document.createElement("div");
@@ -26,17 +26,13 @@ export function crearSeccionCategoria(categoria, productos, container){
     container.appendChild(categoriaTools);
     container.appendChild(contenedorProductos);
 
-    volverDeCategoria();
-}
-
-export function volverDeCategoria(){
-    const btnVolver = $(".btnVolver");
-    const seccionDestacados = document.querySelector(".seccionDestacados");
-
-    btnVolver.click(function(){
-        const seccionActual = averiguarSeccionActual();
+    const btnVolver = categoriaTools.querySelector(".btnVolver");
+    btnVolver.addEventListener("click", () => {
+        const seccionActual = averiguarSeccionActual(); // Supuesto que esta función devuelve la sección actual
+        const seccionDestacados = document.querySelector(".seccionDestacados"); // Ajusta el selector según sea necesario
 
         seccionActual.setAttribute("data-visible", "false");
         seccionDestacados.setAttribute("data-visible", "true");
-    })
+    });
+    
 }

@@ -47,6 +47,7 @@ $(document).ready(() => {
         }
     });
 
+
 });
 
 
@@ -66,3 +67,4 @@ export function averiguarSeccionActual(){
 
     return sectionVisible;
 }
+
