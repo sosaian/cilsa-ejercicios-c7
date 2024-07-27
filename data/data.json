@@ -24,6 +24,35 @@
         "precio": "$ 7.500"
     },
     {
+        "categoria": "exterior",
+        "descripcion": "Este árbol puede plantarse en veredas. El color verde glauco del follaje genera un conjunto muy ornamental en contraste con sus flores abundantes de color violáceo. Es una planta muy resistente y de pocos requerimientos. Es una especie cicatrizante en selvas ya que luego de un desmonte son las primeras en prosperar y comenzar con la regeneración del ambiente.",
+        "floracion": "Primavera, verano y otoño.",
+        "id": 9,
+        "imagen": "https://floralesmisioneras.com.ar/wp-content/uploads/2021/03/fumo-bravo-2-1024x768.jpg",
+        "nombre": "FUMO BRAVO",
+        "precio": "$ 7.999"
+    },
+    {
+        "categoria": "exterior",
+        "descripcion": "Es una trepadora de vistosas flores blancas con centro violeta y llamativos filamentos. Sus frutos comestibles. Esta especie es ideal para cercos y alambrados. Se debe evitar su uso en lugares de mucho tránsito.",
+        "floracion": "Primavera y verano.",
+        "id": 10,
+        "imagen": "https://www.plantasyhongos.es/herbarium/p/Passiflora_edulis_03.jpg",
+        "nombre": "MARACUYÁ",
+        "precio": "$ 6.799"
+    },
+
+    {
+        "categoria": "exterior",
+        "descripcion": "Las clemátides (Clematis spp.) son otras plantas de exterior muy valoradas. Esta familia engloba alrededor de 300 especies de plantas herbáceas y trepadoras muy cotizadas por su prolongado período de floración (de primavera a principios de otoño). Admite el cultivo en maceta y es ideal para cubrir pérgolas y tapizar muros y vallas. Resiste muy bien los cambios climáticos y el frío, pero quiere tierras ricas y húmedas.",
+        "floracion": "Primavera, verano y otoño.",
+        "id": 55,
+        "imagen": "https://joxcastro.github.io/listaPlantasApi/img/productos/clematica.png",
+        "nombre": "CLEMÁTIDE",
+        "precio": "$ 8.899"
+    },
+
+    {
         "categoria": "interior",
         "descripcion": "Fertilizar en primavera-verano. Cuidar del frío cuando la planta es joven.",
         "id": 11,
@@ -50,153 +79,84 @@
         "precio": "$ 5.999"
     },
     {
-        "categoria": "exterior",
-        "descripcion": "Es una planta de base leñosa, cuya parte aérea suele desaparecer en invierno para rebrotar de forma abundante en primavera y comienzos del verano. Requiere poco mantenimiento y es tóxica para el ganado.",
-        "id": 3,
-        "imagen": "https://www.florespedia.com/Imagenes/campo-de-margaritas.jpg",
-        "nombre": "MARGARITA DEL CAMPO",
-        "precio": "$ 7.900"
+        "categoria": "interior",
+        "descripcion": "La humedad es un requisito indispensable en el ambiente donde acojamos a esta planta. Si no poseemos, por clima,esta humedad, tendremos que creerla con pulverizadores sobre las hojas y echando agua en el plato de la maceta, permitiendo así que la humedad entre por abajo y no llegue a pudrir el tronco.",
+        "floracion": "Se reproduce por esporas.",
+        "id": 14,
+        "imagen": "https://agrobio.org/sites/default/files/styles/interna_662x450_/public/2023-12/Prote%C3%ADnas%20de%20Helecho_p.jpg?h=c6980913&itok=42wYEuur",
+        "nombre": "HELECHO",
+        "precio": "$ 5.999"
     },
     {
-        "categoria": "exterior",
-        "descripcion": "Árbol que tiene flores en grandes racimos apicales y muy ornamentales. Sus ramas jóvenes poseen aguijones. Esta especie puede tenerse en macetas de buen tamaño.",
-        "id": 4,
-        "imagen": "https://www.argentina.gob.ar/sites/default/files/ceibo-2.jpg",
-        "nombre": "CEIBO",
-        "precio": "$ 8.500"
+        "categoria": "interior",
+        "descripcion": "Pulverizar con agua el follaje de vez en cuando. Es recomendable \ndejar el agua que se utilice un día al sol para sacarle el cloro.",
+        "floracion": "De manera natural es muy rara su floración, la reproducción se realiza por medio de esquejes.",
+        "id": 15,
+        "imagen": "https://www.ecoregistros.org/site/images/dataimages/2022/04/25/491337/Potus.jpg",
+        "nombre": "POTUS",
+        "precio": "$ 6.700"
     },
     {
-        "categoria": "exterior",
-        "descripcion": "Esta herbácea tiene tallos altos, elongados y floración apical. Sus flores son de color lila o morado y tienen perfume. Es una especie ideal para intercalar con otras más bajas. Resiste a las heladas y algunos ejemplares pueden comportarse como plantas anuales. ",
-        "id": 8,
-        "imagen": "https://www.avesargentinas.org.ar/sites/default/files/20100313_092259_DSC_1335.jpg",
+        "categoria": "interior",
+        "descripcion": "La multiplicación ocurre cortando esquejes de los tallos.",
+        "floracion": "Puede florecer en invierno, sin valor ornamental.",
+        "id": 16,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-aHiPdGSYeIpbXTNEGJKOXzrqDUqotCdU4LpZofc-p6vk5mB9wGLWbt5ZRMjQqmSVTg&usqp=CAU",
+        "nombre": "SINGONIUM",
+        "precio": "$ 8.299"
+    },
+    {
+        "categoria": "acuatica",
+        "descripcion": "Esta herbácea siempreverde forma matas densas y ornamentales todo el año. En verano abre sus grandes flores de color blanco que contrastan con el verde brillante del follaje. Esta especie es ideal para las orillas de cursos de agua como riberas de ríos y arroyos. También puede tenerse en macetas, idealmente en jardineras.",
+        "floracion": "Verano.",
+        "id": 17,
+        "imagen": "https://www.reservacostanera.com.ar/wp-content/uploads/2011/10/azucenita-de-ba%C3%B1ado-SAC-24-3-16-550x413.jpg",
+        "nombre": "AZUCENITA DEL BAÑADO",
+        "precio": "$ 9.900"
+    },
+    {
+        "categoria": "acuatica",
+        "descripcion": "Planta palustre (requiere agua en forma permanente) de gran porte y flores grandes y muy llamativas. Es ideal para riberas de laguna, ríos y arroyos en su zona de distribución, donde cumple importantes funciones ambientales como fitoremediadoras, contenedoras de sustratos, amortiguación de crecidas u oleajes, entre otras. También puede tenerse en grandes estanques y en macetas sumergidas. Posee rizomas comestibles.",
+        "floracion": "Primavera y Verano.",
+        "id": 18,
+        "imagen": "https://scontent.faep14-3.fna.fbcdn.net/v/t1.6435-9/50811294_2871748709505607_5157444592152346624_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeFQb2vAXh5BGz-ZUz7yS8lZpDnGCckHB7akOcYJyQcHtpoWpMu46fPWtSrUMrmnAr4&_nc_ohc=z3Ye439fRW0Q7kNvgHkiYUy&_nc_ht=scontent.faep14-3.fna&cb_e2o_trans=q&oh=00_AYAzhB-yvBQm-YAqcAoEqbAIOnM7YMPVxd9AAcACvjknMA&oe=66A9C8D6",
+        "nombre": "ACHIRA AMARILLA",
+        "precio": "$ 4.900"
+    },
+    {
+        "categoria": "acuatica",
+        "descripcion": "Es una herbácea costera, ideal para bordes de cuerpos de agua. A esta especie le gustan los suelos bien húmedos y puede ponerse a orillas de estanques. Sus grandes flores le otorgan gran valor ornamental. Posee aguijones en el tallo.",
+        "floracion": "Primavera y Verano.",
+        "id": 19,
+        "imagen": "https://acdn.mitiendanube.com/stores/784/264/products/diseno-sin-titulo-71-4e02081905d7d823ff15970827824973-480-0.png",
         "nombre": "ROSA DE RÍO",
-        "precio": "$ 7.500"
+        "precio": "$ 9.200"
     },
     {
-        "categoria": "interior",
-        "descripcion": "Fertilizar en primavera-verano. Cuidar del frío cuando la planta es joven.",
-        "id": 11,
-        "imagen": "https://t2.uc.ltmcdn.com/es/posts/8/4/7/flor_de_pascua_cuidados_y_mantenimiento_25748_600_square.jpg",
-        "nombre": "ESTRELLA FEDERAL",
-        "precio": "$ 6.900"
+        "categoria": "acuatica",
+        "descripcion": "Herbácea de gran porte y exuberante floración. Tiene altos requerimientos hídricos, por lo que tolera muy bien los suelos encharcados de orillas de cuerpos de agua resultando ideal para zonas aledañas a las costas de lagunas, arroyos y ríos. Puede tenerse en macetas de gran tamaño debe evitarse la falta de agua.",
+        "floracion": "Primavera y verano.",
+        "id": 20,
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/77/Margarita_de_ba%C3%B1ado_%28Senecio_bonariensis%29.jpg",
+        "nombre": "MARGARITA DE BAÑADO",
+        "precio": "$ 7.400"
     },
     {
-        "categoria": "interior",
-        "descripcion": "Remover las flores a medida que aparecen (si es que la planta las produce). No tienen ningún interés y le quitan energía a la planta.",
-        "floracion": "En primavera, su flor no es muy vistosa.",
-        "id": 12,
-        "imagen": "https://i.pinimg.com/736x/92/e9/7d/92e97dbed27cc02524e1951e9fa87d96.jpg",
-        "nombre": "FITTONIA",
-        "precio": "$ 9.900"
+        "categoria": "acuatica",
+        "descripcion": "Es una planta palustre y requiere agua en forma permanente. Posee hojas de gran tamaño y con forma sagitada - como la de una flecha partida- que resultan muy ornamentales. Sus flores se ubican en el extremo del escapo floral -un tallo herbáceo- de coloración blanca. Es una planta ideal para riberas de lagunas, ríos y arroyos, donde cumplen importantes funciones ambientales como fitoremediadoras, contenedoras de sustratos, amortiguadoras de crecidas u oleajes, entre otras. En zonas con heladas puede desaparecer en invierno para luego rebrotar rápidamente de los rizomas.",
+        "floracion": "Verano y otoño.",
+        "id": 21,
+        "imagen": "https://www.plantasacuaticas.org/wp-content/uploads/2023/02/sagittaria-montevidensis-saeta-de-montevideo-4.webp",
+        "nombre": "SAETA",
+        "precio": "$ 8.700"
     },
     {
-        "categoria": "interior",
-        "descripcion": "Es importante protegerlos de cambios bruscos de temperatura (no poner en habitaciones con aire acondicionado) ya que se le caerán las hojas.",
-        "floracion": "Flores sin atractivo ornamental.",
-        "id": 13,
-        "imagen": "https://www.gardenia.net/wp-content/uploads/2024/02/shutterstock_2334862099.jpg",
-        "nombre": "CROTÓN",
-        "precio": "$ 5.999"
-    },
-    {
-        "categoria": "exterior",
-        "descripcion": "Es una planta de base leñosa, cuya parte aérea suele desaparecer en invierno para rebrotar de forma abundante en primavera y comienzos del verano. Requiere poco mantenimiento y es tóxica para el ganado.",
-        "id": 3,
-        "imagen": "https://www.florespedia.com/Imagenes/campo-de-margaritas.jpg",
-        "nombre": "MARGARITA DEL CAMPO",
-        "precio": "$ 7.900"
-    },
-    {
-        "categoria": "exterior",
-        "descripcion": "Árbol que tiene flores en grandes racimos apicales y muy ornamentales. Sus ramas jóvenes poseen aguijones. Esta especie puede tenerse en macetas de buen tamaño.",
-        "id": 4,
-        "imagen": "https://www.argentina.gob.ar/sites/default/files/ceibo-2.jpg",
-        "nombre": "CEIBO",
-        "precio": "$ 8.500"
-    },
-    {
-        "categoria": "exterior",
-        "descripcion": "Esta herbácea tiene tallos altos, elongados y floración apical. Sus flores son de color lila o morado y tienen perfume. Es una especie ideal para intercalar con otras más bajas. Resiste a las heladas y algunos ejemplares pueden comportarse como plantas anuales. ",
-        "id": 8,
-        "imagen": "https://www.avesargentinas.org.ar/sites/default/files/20100313_092259_DSC_1335.jpg",
-        "nombre": "ROSA DE RÍO",
-        "precio": "$ 7.500"
-    },
-    {
-        "categoria": "interior",
-        "descripcion": "Fertilizar en primavera-verano. Cuidar del frío cuando la planta es joven.",
-        "id": 11,
-        "imagen": "https://t2.uc.ltmcdn.com/es/posts/8/4/7/flor_de_pascua_cuidados_y_mantenimiento_25748_600_square.jpg",
-        "nombre": "ESTRELLA FEDERAL",
-        "precio": "$ 6.900"
-    },
-    {
-        "categoria": "interior",
-        "descripcion": "Remover las flores a medida que aparecen (si es que la planta las produce). No tienen ningún interés y le quitan energía a la planta.",
-        "floracion": "En primavera, su flor no es muy vistosa.",
-        "id": 12,
-        "imagen": "https://i.pinimg.com/736x/92/e9/7d/92e97dbed27cc02524e1951e9fa87d96.jpg",
-        "nombre": "FITTONIA",
-        "precio": "$ 9.900"
-    },
-    {
-        "categoria": "interior",
-        "descripcion": "Es importante protegerlos de cambios bruscos de temperatura (no poner en habitaciones con aire acondicionado) ya que se le caerán las hojas.",
-        "floracion": "Flores sin atractivo ornamental.",
-        "id": 13,
-        "imagen": "https://www.gardenia.net/wp-content/uploads/2024/02/shutterstock_2334862099.jpg",
-        "nombre": "CROTÓN",
-        "precio": "$ 5.999"
-    },
-    {
-        "categoria": "exterior",
-        "descripcion": "Es una planta de base leñosa, cuya parte aérea suele desaparecer en invierno para rebrotar de forma abundante en primavera y comienzos del verano. Requiere poco mantenimiento y es tóxica para el ganado.",
-        "id": 3,
-        "imagen": "https://www.florespedia.com/Imagenes/campo-de-margaritas.jpg",
-        "nombre": "MARGARITA DEL CAMPO",
-        "precio": "$ 7.900"
-    },
-    {
-        "categoria": "exterior",
-        "descripcion": "Árbol que tiene flores en grandes racimos apicales y muy ornamentales. Sus ramas jóvenes poseen aguijones. Esta especie puede tenerse en macetas de buen tamaño.",
-        "id": 4,
-        "imagen": "https://www.argentina.gob.ar/sites/default/files/ceibo-2.jpg",
-        "nombre": "CEIBO",
-        "precio": "$ 8.500"
-    },
-    {
-        "categoria": "exterior",
-        "descripcion": "Esta herbácea tiene tallos altos, elongados y floración apical. Sus flores son de color lila o morado y tienen perfume. Es una especie ideal para intercalar con otras más bajas. Resiste a las heladas y algunos ejemplares pueden comportarse como plantas anuales. ",
-        "id": 8,
-        "imagen": "https://www.avesargentinas.org.ar/sites/default/files/20100313_092259_DSC_1335.jpg",
-        "nombre": "ROSA DE RÍO",
-        "precio": "$ 7.500"
-    },
-    {
-        "categoria": "interior",
-        "descripcion": "Fertilizar en primavera-verano. Cuidar del frío cuando la planta es joven.",
-        "id": 11,
-        "imagen": "https://t2.uc.ltmcdn.com/es/posts/8/4/7/flor_de_pascua_cuidados_y_mantenimiento_25748_600_square.jpg",
-        "nombre": "ESTRELLA FEDERAL",
-        "precio": "$ 6.900"
-    },
-    {
-        "categoria": "interior",
-        "descripcion": "Remover las flores a medida que aparecen (si es que la planta las produce). No tienen ningún interés y le quitan energía a la planta.",
-        "floracion": "En primavera, su flor no es muy vistosa.",
-        "id": 12,
-        "imagen": "https://i.pinimg.com/736x/92/e9/7d/92e97dbed27cc02524e1951e9fa87d96.jpg",
-        "nombre": "FITTONIA",
-        "precio": "$ 9.900"
-    },
-    {
-        "categoria": "Acuatica",
-        "descripcion": "Es importante protegerlos de cambios bruscos de temperatura (no poner en habitaciones con aire acondicionado) ya que se le caerán las hojas.",
-        "floracion": "Flores sin atractivo ornamental.",
-        "id": 13,
-        "imagen": "https://www.gardenia.net/wp-content/uploads/2024/02/shutterstock_2334862099.jpg",
-        "nombre": "CROTÓN",
-        "precio": "$ 5.999"
+        "categoria": "acuatica",
+        "descripcion": "Es una planta acuática ideal para ambientes ribereños, lagunas o ríos de su área de distribución. Puede tenerse perfectamente en macetas bien regadas o en estanques. Posee una inflorescencia (conjunto de flores) grande de color violáceo. Posee rizomas. Fuera de su área de distribución natural puede convertirse en invasora debido a la ausencia de controladores naturales de la especie.",
+        "floracion": "Primavera y Verano.",
+        "id": 22,
+        "imagen": "https://images.tcdn.com.br/img/img_prod/648834/eichhornia_crassipes_aguape_2879_1_3eac2aa17036a9343233451562b91460.jpg",
+        "nombre": "AGUAPÉ",
+        "precio": "$ 4.900"
     }
 ]
