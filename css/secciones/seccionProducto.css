@@ -1,0 +1,92 @@
+.seccionProducto{
+    min-height: 81svh;
+    /* max-height: 81svh; */
+}
+
+.bloqueIzquierda{
+    width: 15%;
+    height: 70vh;
+}
+
+.btnVolver{
+    width: 4rem;
+    font-size: .9em;
+}
+
+.bloqueImagenes{
+    height: 70%;
+}
+
+.img1, .img2{
+    height: 45%;
+}
+
+.img-active{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.divImgGrande{
+    width: 45%;
+}
+
+.divImgGrande img{
+    min-height: 65vh;
+    max-height: 65vh;
+}
+
+.detallesProducto{
+    width: 30%;
+    min-height: 70vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.infoProducto{
+    height: 30%;
+}
+
+.divStockCantidad{
+    height: 30%;
+}
+
+.stockProducto{
+    width: 55%;
+}
+
+.cantidadProducto{
+    /* padding: .5em; */
+    width: 35%;
+}
+
+
+.iconoMenos, .iconoMas{
+    cursor: pointer;
+}
+
+.divPrecioCarrito{
+    height: 60%;
+}
+
+.precioProducto{
+    width: 35%;
+}
+
+.botonCarrito{
+    width: 55%;
+    height: 55%;
+    border: 0;
+}
+
+/* .botonCarrito .iconoCarrito{
+    font-size: 1em;
+} */
+
+.detallesProducto {
+    width: 30%;
+    min-height: 70vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 1em; /* Ajusta el padding según sea necesario */
+}
+
+.descripcionProducto {
+    text-align: left; /* Alinea el texto a la izquierda */
+}
