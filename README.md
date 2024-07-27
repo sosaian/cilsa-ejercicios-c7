@@ -50,12 +50,22 @@ Desarrollar un sitio web responsivo para una tienda online que permita a los usu
 
 ## Estructura del proyecto
 
-(Acá va la estructura del proyecto)
+La estructura general del proyecto por el que optamos ir consiste en 1 solo archivo HTML que se actualiza de manera **dinámica** mediante la lógica armada con Javascript y JQuery. También optamos por tener de manera local bootstrap para optimizar la carga del mismo gracias al uso del formato minificado de esa librería. La inclusión de JQuery es exclusivamente por la rapidez con la que nos permite traer y reutilizar componentes usados en proyectos anteriores, haciendo que a futuro pueda ser una dependencia que podamos eliminar para optimizar aun más este proyecto.
 
 ## Diseño del proyecto
 
-(Acá va el diseño del proyecto)
+En cuanto al diseño del proyecto, partimos de un diseño sencillo de branding como las imágenes que pueden verse debajo
+
+![Branding](https://github.com/user-attachments/assets/13ffbcb5-b759-4d4d-bc89-8a8813889ea1)
+
+![Imagotipo](https://github.com/user-attachments/assets/04c685a9-ebd0-45b3-bd8d-ee4d700b4dbf)
 
 ## Funcionalidades implementadas
 
-(Acá van las funcionalidades implementadas)
+Entre las funcionalidades que implementamos para este proyecto, podemos destacar la forma **dinámica** en la que cada página se renderiza en este proyecto (como si fuese un ```SPA```) a través del uso de distintos módulos javascript para exportar/importar funciones y manipular el DOM haciendo uso de ```innerHTML```.
+
+Entre las otras funcionalidades implementadas, podemos listarlas (no exhaustivamente) debajo:
+
+* Responsive design; desktop-first (Visualización correcta en desktop, tablet y mobile)
+* AJAX / ASYNC JSON de manera local para la carga de los productos (fácilmente migrable a una API)
+* Tema Oscuro; activable desde la barra de navegación.
