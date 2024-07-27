@@ -38,18 +38,13 @@ export function crearCategorias(datos, container) {
             const categoriaAsociada = this.getAttribute('data-category');
             const productosAsociados = datos[categoriaAsociada];
 
-            crearSeccionCategoria(categoriaAsociada, productosAsociados, contenedorCategoria);
-
+            
             const seccionActual = averiguarSeccionActual();
             seccionActual.setAttribute("data-visible", "false");
             contenedorCategoria.setAttribute("data-visible", "true");
+
+            crearSeccionCategoria(categoriaAsociada, productosAsociados, contenedorCategoria, seccionActual);
         });
     });
 }
 
-
-function separarProducosPorCategorias(datos){
-    
-
-    return productosPorCategoria;
-}

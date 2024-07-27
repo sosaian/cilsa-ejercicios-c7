@@ -1,5 +1,4 @@
-import { crearSeccionDestacados } from "./secciones/seccionDestacados.js";
-import { crearSeccionCategorias } from "./secciones/seccionDestacados.js";
+import { crearContenedorCategorias, crearContenedorDestacados } from "./secciones/seccionDestacados.js";
 
 function cambiarModo(modo) {
     $("body").attr("data-bs-theme", modo);
@@ -7,8 +6,8 @@ function cambiarModo(modo) {
 
 $(document).ready(() => {
     
-    crearSeccionDestacados();
-    crearSeccionCategorias();
+    crearContenedorDestacados();
+    crearContenedorCategorias();
 
     $(window).resize(() => {
         const NAVBAR = $('#navbarTogglerDemo02');

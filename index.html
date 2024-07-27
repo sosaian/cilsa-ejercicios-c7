@@ -30,13 +30,10 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active nav-link fw-bold" aria-current="page" href="./index.html">Inicio</a>
+                                <a class="active nav-link fw-bold verInicio" aria-current="page" href="./index.html">Inicio</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-link fw-bold" href="#seccionDestacados">Destacados</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fw-bold" href="#seccionCategorias">Categorias</a>
+                            <li class="nav-item btnVerCategorias">
+                                <a class="nav-link fw-bold verCategorias" aria-current="page" href="#">Categorias</a>
                             </li>
                         </ul>
                     </div>
@@ -57,21 +54,25 @@
     
     
     <main class="d-flex flex-column justify-content-evenly">
-        <section class="seccionDestacados seccion h-100 p-4 m-0" id="seccionDestacados" data-visible="true">
-            <h2 class="tituloSeccion" id="Destacados">Destacados</h2>
-            <div class="w-100">
-                <div class="destacadosContainer">
+        <section class="seccionDestacados seccion h-100 p-4 m-0 d-flex flex-column gap-5" id="seccionDestacados" data-visible="true">
+            <div class="destacadosContainer d-flex flex-column gap-4">
+                <h2 class="tituloSeccion" id="Destacados">Destacados</h2>
+                <div class="productosDestacados">
                     <!-- Los productos van a estar acá -->
                 </div>
             </div>
 
-            <div class="seccionCategorias" id="seccionCategorias">
-                <h3 class="tituloSeccion" id="Destacados">Categorias</h3>
-                
+            <div class="categoriasContainer d-flex flex-column gap-4" id="seccionCategorias">
+                <h2 class="tituloSeccion" id="Destacados">Categorias</h2>
+                <button class="btnVerCategorias order-2 w-100 bg-transparent p-2">Ver Más Categorias</button>
             </div>
 
         </section>
 
+        <div class="seccionCategorias seccion h-100 p-4 d-flex flex-column gap-4" id="seccionCategorias" data-visible="false">
+            <h2 class="tituloSeccion" id="Destacados">Categorias</h2>
+            
+        </div>
 
         <section class="seccionCategoria seccion h-100 p-4 d-flex flex-column align-items-center justify-content-start gap-2" data-visible="false">
             

@@ -1,4 +1,4 @@
-.destacadosContainer, .productosCategoria{
+.productosDestacados, .productosCategoria{
     width: 100%;
     height: 90%;
     display: grid;
@@ -30,6 +30,10 @@ p{
     font-size: .9em;
     border: 0;
     margin: 0;
+}
+
+.btnVerCategorias{
+    border: 0;
 }
 
 .iconoFlecha{
