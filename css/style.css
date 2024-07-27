@@ -16,20 +16,33 @@ main{
     display: none !important;
 } 
 
-#mode-icon {
+.toggle-mode-btn img {
     width: 30px;
     background-color: #ffffff; 
     padding: 5px; 
-    border-radius: 50%; 
-}
-.oscuro-claro {
-    position: relative;
+    border-radius: 10%; 
 }
 
-#toggleMode {
-    transition: transform 0.5s;
+.toggle-mode-btn {
+    border: none; 
+    background: transparent;
+    box-shadow: none; 
+    padding: 0; 
+    cursor: pointer;
+    transition: transform 0.5s; 
+    margin-right: 15px; 
 }
-
-#toggleMode.dark {
+.toggle-mode-btn.dark {
     transform: translateX(15px); 
 }
+
+.uno-nav {
+    width: 100px;
+}
+
+.dos-nav {
+    width: 40px; 
+    margin-top: 20px;
+
+}
+

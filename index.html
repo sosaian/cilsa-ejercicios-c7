@@ -12,40 +12,52 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
-<body class="h-100 w-100 d-flex flex-column justify-content-between" data-bs-theme="light">
-
+<body class="h-100 d-flex flex-column justify-content-between">
+    
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary"> 
-            <div class="container-fluid d-flex justify-content-between align-items-center">
-                <div class="oscuro-claro">
-                    <button id="toggleMode" class="nav-link fw-bold">
-                        <img id="mode-icon" src="img/sol.png" alt="Modo oscuro/claro" />
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid d-flex align-items-center">
+                <div class="d-none d-lg-flex me-3">
+                    <img class="uno-nav" src="img/uno.png" alt="imgLogo" />
+                </div>
+                <div class="d-block d-lg-none w-100 position-relative">
+                    <img class="dos-nav position-absolute top-50 start-50 translate-middle" src="img/dos.png" alt="imgLogo" />
+                </div>
+                <div class="flex-grow-1">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active nav-link fw-bold" aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link fw-bold" href="#seccionDestacados">Destacados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="#seccionCategorias">Categorias</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block ms-3">
+                    <button class="toggle-mode-btn btn btn-light">
+                        <img id="mode-icon-desktop" src="img/sol.png" alt="Modo oscuro/claro" />
                     </button>
                 </div>
-              <a class="navbar-brand" href="#">Jardinería Digital</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <h3 class="navbar-toggler-icon m-0"></h3>
-              </button>
-              <div  id="navbarTogglerDemo02">
-                <ul class="navbar-nav mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold" href="./index.html">Destacados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#">Categorias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#">Contacto</a>
-                    </li>   
-                </ul>
-              </div>
+                <div class="d-block d-lg-none position-fixed top-0 end-0 p-3">
+                    <button class="toggle-mode-btn btn btn-light">
+                        <img id="mode-icon-mobile" src="img/sol.png" alt="Modo oscuro/claro" />
+                    </button>
+                </div>
             </div>
         </nav>
     </header>
     
     
     <main class="d-flex flex-column justify-content-evenly">
-        <section class="seccionDestacados seccion h-100 p-4 m-0" data-visible="true">
+        <section class="seccionDestacados seccion h-100 p-4 m-0" id="seccionDestacados" data-visible="true">
             <h2 class="tituloSeccion" id="Destacados">Destacados</h2>
             <div class="w-100">
                 <div class="destacadosContainer">
@@ -53,7 +65,7 @@
                 </div>
             </div>
 
-            <div class="seccionCategorias">
+            <div class="seccionCategorias" id="seccionCategorias">
                 <h3 class="tituloSeccion" id="Destacados">Categorias</h3>
                 
             </div>
@@ -78,6 +90,5 @@
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script  type ="module" src="./js/script.js"></script>
-    <!-- <script src="./js/async_mock.js"></script> -->
 </body>
 </html>

@@ -19,19 +19,22 @@ $(document).ready(() => {
     const modoActual = localStorage.getItem("colorMode") || "light";
     cambiarModo(modoActual);
 
-    const TOGGLE_BUTTON = $("#toggleMode");
-    const MODE_ICON = $("#mode-icon");
+    const TOGGLE_BUTTONS = $(".toggle-mode-btn");
+    const MODE_ICON_DESKTOP = $("#mode-icon-desktop");
+    const MODE_ICON_MOBILE = $("#mode-icon-mobile");
 
-    // Actualiza el icono y la clase del botón según el modo actual
+    // Actualiza los iconos según el modo actual
     if (modoActual === "light") {
-        MODE_ICON.attr("src", "img/sol.png");
-        TOGGLE_BUTTON.removeClass("dark");
+        MODE_ICON_DESKTOP.attr("src", "img/luna.png");
+        MODE_ICON_MOBILE.attr("src", "img/luna.png");
+        TOGGLE_BUTTONS.removeClass("dark");
     } else {
-        MODE_ICON.attr("src", "img/luna.png");
-        TOGGLE_BUTTON.addClass("dark");
+        MODE_ICON_DESKTOP.attr("src", "img/sol.png");
+        MODE_ICON_MOBILE.attr("src", "img/sol.png");
+        TOGGLE_BUTTONS.addClass("dark");
     }
 
-    TOGGLE_BUTTON.click(() => {
+    TOGGLE_BUTTONS.click(() => {
         const isLightMode = $("body").attr("data-bs-theme") === "light";
         const newMode = isLightMode ? "dark" : "light";
 
@@ -39,11 +42,13 @@ $(document).ready(() => {
         localStorage.setItem("colorMode", newMode);
 
         if (isLightMode) {
-            MODE_ICON.attr("src", "img/luna.png");
-            TOGGLE_BUTTON.addClass("dark");
+            MODE_ICON_DESKTOP.attr("src", "img/sol.png");
+            MODE_ICON_MOBILE.attr("src", "img/sol.png");
+            TOGGLE_BUTTONS.addClass("dark");
         } else {
-            MODE_ICON.attr("src", "img/sol.png");
-            TOGGLE_BUTTON.removeClass("dark");
+            MODE_ICON_DESKTOP.attr("src", "img/luna.png");
+            MODE_ICON_MOBILE.attr("src", "img/luna.png");
+            TOGGLE_BUTTONS.removeClass("dark");
         }
     });
 
