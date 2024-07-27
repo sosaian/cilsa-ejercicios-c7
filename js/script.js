@@ -21,17 +21,26 @@ $(document).ready(() => {
     const TOGGLE_BUTTONS = $(".toggle-mode-btn");
     const MODE_ICON_DESKTOP = $("#mode-icon-desktop");
     const MODE_ICON_MOBILE = $("#mode-icon-mobile");
+    const LOGO = $(".uno-nav"); // Selecciona el logo
 
-    // Actualiza los iconos según el modo actual
-    if (modoActual === "light") {
-        MODE_ICON_DESKTOP.attr("src", "img/luna.png");
-        MODE_ICON_MOBILE.attr("src", "img/luna.png");
-        TOGGLE_BUTTONS.removeClass("dark");
-    } else {
-        MODE_ICON_DESKTOP.attr("src", "img/sol.png");
-        MODE_ICON_MOBILE.attr("src", "img/sol.png");
-        TOGGLE_BUTTONS.addClass("dark");
+    // Función para actualizar el logo y los íconos de modo
+    function actualizarImagenes(modo) {
+        const timestamp = new Date().getTime(); // Parámetro único para evitar caché
+        if (modo === "light") {
+            MODE_ICON_DESKTOP.attr("src", `img/luna.png?${timestamp}`);
+            MODE_ICON_MOBILE.attr("src", `img/luna.png?${timestamp}`);
+            LOGO.attr("src", `img/uno.png?${timestamp}`);
+            TOGGLE_BUTTONS.removeClass("dark");
+        } else {
+            MODE_ICON_DESKTOP.attr("src", `img/sol.png?${timestamp}`);
+            MODE_ICON_MOBILE.attr("src", `img/sol.png?${timestamp}`);
+            LOGO.attr("src", `img/uno-b.png?${timestamp}`);
+            TOGGLE_BUTTONS.addClass("dark");
+        }
     }
+
+    // Actualiza las imágenes al cargar la página
+    actualizarImagenes(modoActual);
 
     TOGGLE_BUTTONS.click(() => {
         const isLightMode = $("body").attr("data-bs-theme") === "light";
@@ -40,20 +49,10 @@ $(document).ready(() => {
         cambiarModo(newMode);
         localStorage.setItem("colorMode", newMode);
 
-        if (isLightMode) {
-            MODE_ICON_DESKTOP.attr("src", "img/sol.png");
-            MODE_ICON_MOBILE.attr("src", "img/sol.png");
-            TOGGLE_BUTTONS.addClass("dark");
-        } else {
-            MODE_ICON_DESKTOP.attr("src", "img/luna.png");
-            MODE_ICON_MOBILE.attr("src", "img/luna.png");
-            TOGGLE_BUTTONS.removeClass("dark");
-        }
+        actualizarImagenes(newMode);
     });
 
-
 });
-
 
 export function averiguarSeccionActual(){
 

@@ -16,13 +16,13 @@ export function crearSeccionProducto(producto, container, pantallaAnterior){
     const detallesProducto = document.createElement("div");
     detallesProducto.className = "detallesProducto h-100 d-flex flex-column justify-content-between text-center p-3 bg-body-tertiary rounded-3";
     detallesProducto.innerHTML = `<p class="nombreProducto fw-bold">${producto.nombre}</p>
-                <p class="descripcionProducto d-flex w-100 text-center align-items-center">${producto.descripcion}</p>
+                <p class="descripcionProducto d-flex w-100 text-left align-items-left">${producto.descripcion}</p>
                 <div class="infoProducto d-flex flex-column justify-content-center gap-4">
                     <div class="divStockCantidad d-flex align-items-center justify-content-around">
                         <span class="cantidadProducto d-flex align-items-center justify-content-around h-100 p-2"><i class="fa-solid fa-minus iconoMenos h-100"></i> 
                             <p class="textCantidadProducto h-100">1</p><i class="fa-solid fa-plus iconoMas h-100"></i>
                         </span>
-                        <p class="stockProducto text-center">stock disponible: ${producto.id} u</p>
+                        <p class="stockProducto text-left">stock disponible: ${producto.id} u</p>
                     </div>
                     <div class="divPrecioCarrito d-flex justify-content-around align-items-center w-100">
                         <h2 class="precioProducto m-0">${producto.precio}</h2>
@@ -71,3 +71,5 @@ export function crearSeccionProducto(producto, container, pantallaAnterior){
     });
 
 }
+
+

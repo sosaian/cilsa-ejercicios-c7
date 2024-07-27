@@ -79,3 +79,14 @@
 /* .botonCarrito .iconoCarrito{
     font-size: 1em;
 } */
+
+.detallesProducto {
+    width: 30%;
+    min-height: 70vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 1em; /* Ajusta el padding según sea necesario */
+}
+
+.descripcionProducto {
+    text-align: left; /* Alinea el texto a la izquierda */
+}
