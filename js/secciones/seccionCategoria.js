@@ -9,7 +9,7 @@ export function crearSeccionCategoria(categoria, productos, container){
                     <i class="fa-solid fa-arrow-right fa-rotate-180 d-flex align-items-center iconoFlecha"></i>
                     <span class="textoBtnVolver">Volver</span>
                 </button>
-                <h2 class="tituloCategoria">${categoria}</h2>
+                <h2 class="tituloCategoria">${categoria.charAt(0).toUpperCase() + categoria.slice(1)}</h2>
                 <select class="h-100 filtros">
                     <option selected="">Ordenar por: </option>
                     <option value="menor precio">Menor Precio</option>

@@ -1,6 +1,6 @@
 .seccionProducto{
-    min-height: 81vh;
-    max-height: 81vh;
+    min-height: 81svh;
+    /* max-height: 81svh; */
 }
 
 .bloqueIzquierda{

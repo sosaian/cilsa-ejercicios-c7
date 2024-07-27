@@ -8,7 +8,10 @@ export function crearSeccionDestacados(){
     cargarProductos().then(datos => {
         if (datos) {    
             const contenedorDestacados = document.querySelector(".destacadosContainer");
-            crearProductos(datos, contenedorDestacados);
+
+            const productosDestacados = datos.slice(0, 6);
+
+            crearProductos(productosDestacados, contenedorDestacados);
         }
     }).catch(error => {
         console.error("Error al manejar los datos:", error);

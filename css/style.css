@@ -1,5 +1,5 @@
-html{
-    min-height: 100vh;
+html, body{
+    min-height: 100svh;
     scrollbar-gutter: stable !important;
     scrollbar-width: thin !important;
 }
@@ -32,6 +32,7 @@ main{
     transition: transform 0.5s; 
     margin-right: 15px; 
 }
+
 .toggle-mode-btn.dark {
     transform: translateX(15px); 
 }
@@ -43,6 +44,5 @@ main{
 .dos-nav {
     width: 40px; 
     margin-top: 20px;
-
 }
 

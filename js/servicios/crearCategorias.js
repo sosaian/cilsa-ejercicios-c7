@@ -26,7 +26,7 @@ export function crearCategorias(datos, container) {
         productosCategoria.className = "productosCategoria";
 
         // Usa la función `crearProductos` para agregar productos al contenedor
-        crearProductos(datos[categoria], productosCategoria);
+        crearProductos(datos[categoria].slice(0, 6), productosCategoria);
         
         categoriaDiv.appendChild(productosCategoria);
         container.appendChild(categoriaDiv);
@@ -36,7 +36,7 @@ export function crearCategorias(datos, container) {
 
         btnVerProductos.addEventListener('click', function() {
             const categoriaAsociada = this.getAttribute('data-category');
-            const productosAsociados = datos[categoriaAsociada] || [];
+            const productosAsociados = datos[categoriaAsociada];
 
             crearSeccionCategoria(categoriaAsociada, productosAsociados, contenedorCategoria);
 
@@ -47,3 +47,9 @@ export function crearCategorias(datos, container) {
     });
 }
 
+
+function separarProducosPorCategorias(datos){
+    
+
+    return productosPorCategoria;
+}

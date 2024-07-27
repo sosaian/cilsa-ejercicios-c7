@@ -48,5 +48,155 @@
         "imagen": "https://www.gardenia.net/wp-content/uploads/2024/02/shutterstock_2334862099.jpg",
         "nombre": "CROTÓN",
         "precio": "$ 5.999"
+    },
+    {
+        "categoria": "exterior",
+        "descripcion": "Es una planta de base leñosa, cuya parte aérea suele desaparecer en invierno para rebrotar de forma abundante en primavera y comienzos del verano. Requiere poco mantenimiento y es tóxica para el ganado.",
+        "id": 3,
+        "imagen": "https://www.florespedia.com/Imagenes/campo-de-margaritas.jpg",
+        "nombre": "MARGARITA DEL CAMPO",
+        "precio": "$ 7.900"
+    },
+    {
+        "categoria": "exterior",
+        "descripcion": "Árbol que tiene flores en grandes racimos apicales y muy ornamentales. Sus ramas jóvenes poseen aguijones. Esta especie puede tenerse en macetas de buen tamaño.",
+        "id": 4,
+        "imagen": "https://www.argentina.gob.ar/sites/default/files/ceibo-2.jpg",
+        "nombre": "CEIBO",
+        "precio": "$ 8.500"
+    },
+    {
+        "categoria": "exterior",
+        "descripcion": "Esta herbácea tiene tallos altos, elongados y floración apical. Sus flores son de color lila o morado y tienen perfume. Es una especie ideal para intercalar con otras más bajas. Resiste a las heladas y algunos ejemplares pueden comportarse como plantas anuales. ",
+        "id": 8,
+        "imagen": "https://www.avesargentinas.org.ar/sites/default/files/20100313_092259_DSC_1335.jpg",
+        "nombre": "ROSA DE RÍO",
+        "precio": "$ 7.500"
+    },
+    {
+        "categoria": "interior",
+        "descripcion": "Fertilizar en primavera-verano. Cuidar del frío cuando la planta es joven.",
+        "id": 11,
+        "imagen": "https://t2.uc.ltmcdn.com/es/posts/8/4/7/flor_de_pascua_cuidados_y_mantenimiento_25748_600_square.jpg",
+        "nombre": "ESTRELLA FEDERAL",
+        "precio": "$ 6.900"
+    },
+    {
+        "categoria": "interior",
+        "descripcion": "Remover las flores a medida que aparecen (si es que la planta las produce). No tienen ningún interés y le quitan energía a la planta.",
+        "floracion": "En primavera, su flor no es muy vistosa.",
+        "id": 12,
+        "imagen": "https://i.pinimg.com/736x/92/e9/7d/92e97dbed27cc02524e1951e9fa87d96.jpg",
+        "nombre": "FITTONIA",
+        "precio": "$ 9.900"
+    },
+    {
+        "categoria": "interior",
+        "descripcion": "Es importante protegerlos de cambios bruscos de temperatura (no poner en habitaciones con aire acondicionado) ya que se le caerán las hojas.",
+        "floracion": "Flores sin atractivo ornamental.",
+        "id": 13,
+        "imagen": "https://www.gardenia.net/wp-content/uploads/2024/02/shutterstock_2334862099.jpg",
+        "nombre": "CROTÓN",
+        "precio": "$ 5.999"
+    },
+    {
+        "categoria": "exterior",
+        "descripcion": "Es una planta de base leñosa, cuya parte aérea suele desaparecer en invierno para rebrotar de forma abundante en primavera y comienzos del verano. Requiere poco mantenimiento y es tóxica para el ganado.",
+        "id": 3,
+        "imagen": "https://www.florespedia.com/Imagenes/campo-de-margaritas.jpg",
+        "nombre": "MARGARITA DEL CAMPO",
+        "precio": "$ 7.900"
+    },
+    {
+        "categoria": "exterior",
+        "descripcion": "Árbol que tiene flores en grandes racimos apicales y muy ornamentales. Sus ramas jóvenes poseen aguijones. Esta especie puede tenerse en macetas de buen tamaño.",
+        "id": 4,
+        "imagen": "https://www.argentina.gob.ar/sites/default/files/ceibo-2.jpg",
+        "nombre": "CEIBO",
+        "precio": "$ 8.500"
+    },
+    {
+        "categoria": "exterior",
+        "descripcion": "Esta herbácea tiene tallos altos, elongados y floración apical. Sus flores son de color lila o morado y tienen perfume. Es una especie ideal para intercalar con otras más bajas. Resiste a las heladas y algunos ejemplares pueden comportarse como plantas anuales. ",
+        "id": 8,
+        "imagen": "https://www.avesargentinas.org.ar/sites/default/files/20100313_092259_DSC_1335.jpg",
+        "nombre": "ROSA DE RÍO",
+        "precio": "$ 7.500"
+    },
+    {
+        "categoria": "interior",
+        "descripcion": "Fertilizar en primavera-verano. Cuidar del frío cuando la planta es joven.",
+        "id": 11,
+        "imagen": "https://t2.uc.ltmcdn.com/es/posts/8/4/7/flor_de_pascua_cuidados_y_mantenimiento_25748_600_square.jpg",
+        "nombre": "ESTRELLA FEDERAL",
+        "precio": "$ 6.900"
+    },
+    {
+        "categoria": "interior",
+        "descripcion": "Remover las flores a medida que aparecen (si es que la planta las produce). No tienen ningún interés y le quitan energía a la planta.",
+        "floracion": "En primavera, su flor no es muy vistosa.",
+        "id": 12,
+        "imagen": "https://i.pinimg.com/736x/92/e9/7d/92e97dbed27cc02524e1951e9fa87d96.jpg",
+        "nombre": "FITTONIA",
+        "precio": "$ 9.900"
+    },
+    {
+        "categoria": "interior",
+        "descripcion": "Es importante protegerlos de cambios bruscos de temperatura (no poner en habitaciones con aire acondicionado) ya que se le caerán las hojas.",
+        "floracion": "Flores sin atractivo ornamental.",
+        "id": 13,
+        "imagen": "https://www.gardenia.net/wp-content/uploads/2024/02/shutterstock_2334862099.jpg",
+        "nombre": "CROTÓN",
+        "precio": "$ 5.999"
+    },
+    {
+        "categoria": "exterior",
+        "descripcion": "Es una planta de base leñosa, cuya parte aérea suele desaparecer en invierno para rebrotar de forma abundante en primavera y comienzos del verano. Requiere poco mantenimiento y es tóxica para el ganado.",
+        "id": 3,
+        "imagen": "https://www.florespedia.com/Imagenes/campo-de-margaritas.jpg",
+        "nombre": "MARGARITA DEL CAMPO",
+        "precio": "$ 7.900"
+    },
+    {
+        "categoria": "exterior",
+        "descripcion": "Árbol que tiene flores en grandes racimos apicales y muy ornamentales. Sus ramas jóvenes poseen aguijones. Esta especie puede tenerse en macetas de buen tamaño.",
+        "id": 4,
+        "imagen": "https://www.argentina.gob.ar/sites/default/files/ceibo-2.jpg",
+        "nombre": "CEIBO",
+        "precio": "$ 8.500"
+    },
+    {
+        "categoria": "exterior",
+        "descripcion": "Esta herbácea tiene tallos altos, elongados y floración apical. Sus flores son de color lila o morado y tienen perfume. Es una especie ideal para intercalar con otras más bajas. Resiste a las heladas y algunos ejemplares pueden comportarse como plantas anuales. ",
+        "id": 8,
+        "imagen": "https://www.avesargentinas.org.ar/sites/default/files/20100313_092259_DSC_1335.jpg",
+        "nombre": "ROSA DE RÍO",
+        "precio": "$ 7.500"
+    },
+    {
+        "categoria": "interior",
+        "descripcion": "Fertilizar en primavera-verano. Cuidar del frío cuando la planta es joven.",
+        "id": 11,
+        "imagen": "https://t2.uc.ltmcdn.com/es/posts/8/4/7/flor_de_pascua_cuidados_y_mantenimiento_25748_600_square.jpg",
+        "nombre": "ESTRELLA FEDERAL",
+        "precio": "$ 6.900"
+    },
+    {
+        "categoria": "interior",
+        "descripcion": "Remover las flores a medida que aparecen (si es que la planta las produce). No tienen ningún interés y le quitan energía a la planta.",
+        "floracion": "En primavera, su flor no es muy vistosa.",
+        "id": 12,
+        "imagen": "https://i.pinimg.com/736x/92/e9/7d/92e97dbed27cc02524e1951e9fa87d96.jpg",
+        "nombre": "FITTONIA",
+        "precio": "$ 9.900"
+    },
+    {
+        "categoria": "interior",
+        "descripcion": "Es importante protegerlos de cambios bruscos de temperatura (no poner en habitaciones con aire acondicionado) ya que se le caerán las hojas.",
+        "floracion": "Flores sin atractivo ornamental.",
+        "id": 13,
+        "imagen": "https://www.gardenia.net/wp-content/uploads/2024/02/shutterstock_2334862099.jpg",
+        "nombre": "CROTÓN",
+        "precio": "$ 5.999"
     }
 ]
