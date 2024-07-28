@@ -46,3 +46,9 @@ main{
     margin-top: 20px;
 }
 
+@media (min-height: 1366px) {
+    main{
+        height: 85svh;
+    }
+}
+
