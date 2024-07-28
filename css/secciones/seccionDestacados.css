@@ -6,12 +6,27 @@
     gap: 1em;
 }
 
+.cardsCategoria {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.card{
+    height: 300px;
+    cursor: pointer;
+}
+
+.imagen-blur{
+    filter: blur(3px) brightness(0.7);
+}
+
+
 .producto{
     height: 280px;
-    border-radius: 0 0 1em 1em; /* Bordes redondeados para el producto */
+    border-radius: 0 0 1em 1em; 
     /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */
-    /* border: 2px solid rgba(0,0,0,.1); */
 }
+
 
 .producto .imageDiv{
     height: 75%;

@@ -23,36 +23,17 @@ export function crearContenedorCategorias(){
         if (datos) {    
             const categorias = new Set(datos.map(productos => productos.categoria));
 
-            let cont = 0;
-
-            const categoriasLimitadas =[]
-
-            categorias.forEach((categoria) => {
-                if(cont<2){
-                    categoriasLimitadas.push(categoria);
-                    cont++
-                }
-            })
-
-            console.log(categoriasLimitadas);
-            
-            const productosCategoriaLimitado = {};
             const productosPorCategoria = {};
 
-            categoriasLimitadas.forEach(categoria => {
-                productosCategoriaLimitado[categoria] = datos.filter(producto => producto.categoria === categoria);
-            })
 
             categorias.forEach(categoria => {
                 productosPorCategoria[categoria] = datos.filter(producto => producto.categoria === categoria);
             })
 
-
             const contenedorCategorias = document.querySelector(".categoriasContainer");
             const seccionCategorias = document.querySelector(".seccionCategorias");
             const seccionDestacados = document.querySelector(".seccionDestacados");
 
-            crearCategorias(productosCategoriaLimitado, contenedorCategorias);
             crearCategorias(productosPorCategoria, seccionCategorias);
 
 
