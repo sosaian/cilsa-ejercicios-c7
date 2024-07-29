@@ -32,6 +32,7 @@ export function crearCategorias(datos, container) {
         container.appendChild(categoriaDiv);
         
         const btnVerProductos = categoriaDiv.querySelector('.btnVerProductos');
+
         const contenedorCategoria = document.querySelector(".seccionCategoria");
 
         btnVerProductos.addEventListener('click', function() {
@@ -42,6 +43,8 @@ export function crearCategorias(datos, container) {
             const seccionActual = averiguarSeccionActual();
             seccionActual.setAttribute("data-visible", "false");
             contenedorCategoria.setAttribute("data-visible", "true");
+            
+            window.scrollTo({ top: 0, behavior: 'smooth' });
 
             crearSeccionCategoria(categoriaAsociada, productosAsociados, contenedorCategoria, seccionActual);
         });
