@@ -5,22 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo Integrador I</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/secciones/seccionDestacados.css">
+    <link rel="stylesheet" href="./css/secciones/seccionCategoria.css">
+    <link rel="stylesheet" href="./css/secciones/seccionProducto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body class="h-100 d-flex flex-column justify-content-between">
+    
     <header>
-        Header
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid d-flex align-items-center">
+                <div class="d-none d-lg-flex me-3">
+                    <img class="uno-nav" src="img/uno.png" alt="imgLogo" />
+                </div>
+                <div class="d-block d-lg-none w-100 position-relative">
+                    <img class="dos-nav position-absolute top-50 start-50 translate-middle" src="img/dos.png" alt="imgLogo" />
+                </div>
+                <div class="flex-grow-1">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="active nav-link fw-bold verInicio" aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item btnVerCategorias">
+                                <a class="nav-link fw-bold verCategorias" aria-current="page" href="#">Categorias</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block ms-3">
+                    <button class="toggle-mode-btn btn btn-light">
+                        <img id="mode-icon-desktop" src="img/sol.png" alt="Modo oscuro/claro" />
+                    </button>
+                </div>
+                <div class="d-block d-lg-none position-absolute top-0 end-0 p-3">
+                    <button class="toggle-mode-btn btn btn-light">
+                        <img id="mode-icon-mobile" src="img/sol.png" alt="Modo oscuro/claro" />
+                    </button>
+                </div>
+            </div>
+        </nav>
     </header>
     
-    <main>
-        Main
+    
+    <main class="d-flex flex-column justify-content-evenly">
+        <section class="seccionDestacados seccion h-100 p-4 m-0 d-flex flex-column gap-5" id="seccionDestacados" data-visible="true">
+            <div class="destacadosContainer d-flex flex-column gap-4">
+                <h2 class="tituloSeccion" id="Destacados">Destacados</h2>
+                <div class="productosDestacados">
+                    <!-- Los productos van a estar acá -->
+                </div>
+            </div>
+
+            <div class="categoriasContainer d-flex flex-column gap-4" id="seccionCategorias">
+                <h2 class="tituloSeccion" id="Destacados">Categorias</h2>
+                <div class="cardsCategoria gap-5">
+                    <div class="card d-flex align-items-center justify-content-center rounded-4">
+                        <img class="h-100 w-100 position-relative object-fit-cover ratio ratio1x1 rounded-4 imagen-blur" src="https://rinconbotanico072024.000webhostapp.com/img/exterior/normales/Ceibo.png" alt="Flor ceibo">
+                        <h2 class="position-absolute text-white">Exterior</h2>
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center rounded-4">
+                        <img class="h-100 w-100 position-relative object-fit-cover ratio ratio1x1 rounded-4 imagen-blur" src="https://rinconbotanico072024.000webhostapp.com/img/interior/normales/03CrotonInterior.png" alt="CrotonInterior">
+                        <h2 class="position-absolute text-white">Interior</h2>
+                    </div>
+                    <div class="card d-flex align-items-center justify-content-center rounded-4 btnVerCategorias">
+                        <img class="h-100 w-100 position-relative object-fit-cover ratio ratio1x1 rounded-4 imagen-blur" src="https://rinconbotanico072024.000webhostapp.com/img/acuaticas/normal/00RosaDeRioAcuatica.png" alt="Rosa de rio acuatica">
+                        <h2 class="position-absolute text-white">Ver Más</h2>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="seccionCategorias seccion h-100 p-4 d-flex flex-column gap-4" id="seccionCategorias" data-visible="false">
+            <h2 class="tituloSeccion" id="Destacados">Categorias</h2>
+            
+        </div>
+
+        <section class="seccionCategoria seccion h-100 p-4 d-flex flex-column align-items-center justify-content-start gap-2" data-visible="false">
+            
+        </section>
+
+        <section class="seccionProducto seccion h-100 w-100 d-flex align-items-center justify-content-between p-4" data-visible="false">
+            
+        </section>
     </main>
 
-    <footer>
-        Footer
+    
+    <footer class="p-3 bg-body-tertiary">
+        <h2 class="fs-5 text-center">CILSA - Bootcamp Fullstack | Gabriel Abalde | Ian Sosa | Antonella Almeida | Paola Fraticola</h2>
     </footer>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <!-- <script  src="./js/script.js"></script> -->
-    <script src="./js/async_mock.js"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script  type ="module" src="./js/script.js"></script>
 </body>
 </html>

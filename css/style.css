@@ -1,0 +1,54 @@
+html, body{
+    min-height: 100svh;
+    scrollbar-gutter: stable !important;
+    scrollbar-width: thin !important;
+}
+
+header, footer{
+    height: 10%;
+}
+
+main{
+    height: 80%;
+}
+
+.seccion[data-visible="false"]{
+    display: none !important;
+} 
+
+.toggle-mode-btn img {
+    width: 30px;
+    background-color: #ffffff; 
+    padding: 5px; 
+    border-radius: 10%; 
+}
+
+.toggle-mode-btn {
+    border: none; 
+    background: transparent;
+    box-shadow: none; 
+    padding: 0; 
+    cursor: pointer;
+    transition: transform 0.5s; 
+    margin-right: 15px; 
+}
+
+.toggle-mode-btn.dark {
+    transform: translateX(15px); 
+}
+
+.uno-nav {
+    width: 100px;
+}
+
+.dos-nav {
+    width: 40px; 
+    margin-top: 20px;
+}
+
+@media (min-height: 1366px) {
+    main{
+        height: 85svh;
+    }
+}
+
