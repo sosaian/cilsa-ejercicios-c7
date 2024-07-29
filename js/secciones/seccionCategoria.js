@@ -32,14 +32,8 @@ export function crearSeccionCategoria(categoria, productos, container, pantallaA
 
         seccionActual.setAttribute("data-visible", "false");
         pantallaAnterior.setAttribute("data-visible", "true");
-
-        if(pantallaAnterior.classList.contains("seccionDestacados")){
-            const verCategorias = document.querySelector(".verCategorias");
-            const verInicio = document.querySelector(".verInicio");
-
-            verCategorias.classList.remove("active");
-            verInicio.classList.add("active");
-        }
     });
     
+    console.log(productos); // Verifica que este array no esté vacío y tenga datos correctos
+crearProductos(productos, contenedorProductos);
 }

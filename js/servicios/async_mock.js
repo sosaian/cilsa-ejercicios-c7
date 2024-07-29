@@ -17,5 +17,14 @@ export async function cargarProductos() {
 
         console.error("Se produjo un error al cargar los productos:", error.message)
     
+    } finally {
+
+        // (Opcional) Haya o no obtenido el JSON de productos, ejecuto este código.
+
+        setTimeout(() => {
+            console.log("TERMINÉ :)")
+        }, 2000);
+    
     }
+
 }
