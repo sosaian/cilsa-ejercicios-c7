@@ -1,7 +1,7 @@
 # CILSA | Bootcamp Fullstack | Trabajo Grupal #1
 ## Información del proyecto
 
-Este fue el primer proyecto grupal del curso, donde pudimos poner en práctica los conocimientos que aprendimos así como también los que ya teníamos previamente, en un grupo donde pudimos compartir ideas para encontrar una propuesta con la que cumplimos los requerimientos del proyecto así como también 
+Este fue el primer proyecto grupal del curso, donde pudimos poner en práctica los conocimientos que aprendimos así como también los que ya teníamos previamente, en un grupo donde pudimos compartir ideas para encontrar una propuesta con la que cumplimos los requerimientos del proyecto.
 
 ## Miembros del grupo
 
